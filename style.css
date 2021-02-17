@@ -1,0 +1,106 @@
+title {
+    color:blueviolet
+}
+h1 {
+    color:red
+}
+h2 {
+    color:lawngreen;
+}
+h3{
+    color:yellow
+}
+p {
+    color:cyan
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color:white;
+}
+.container {
+    background-color:lawngreen;
+    font-family: fantasy;
+    text-align: center;
+   
+}
+.container1 {
+    background-color:peachpuff;
+}
+
+.game {
+    background-color:black;
+    font-family: monospace;
+    text-align: center;  
+    position: relative;
+}
+
+.game h2 {
+   top: 40%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   position:absolute;
+   opacity:0;
+}
+.game h3{
+    opacity:0;
+}
+.game img{
+    width:250px;
+    height:250px;
+    border-radius: 250px;
+    padding: 20px;
+    background-color: cornsilk;
+    border-color: red;
+    border-width: 5px;
+}
+.game:hover h2{
+    opacity:1;  
+}
+.game:hover img{
+    opacity:0.33;
+}
+.game:hover h3{
+    opacity:1;
+}
+
+.name{
+    background-color: black;
+    font-family:cursive;
+    text-align: center;
+}
+
+.image img{
+    width: 500px;
+    height: 500px;
+    border-radius:500px;
+    padding:20px;
+    background-color:gold ;
+}
+
+.image{
+    background-image: url("backgroundImg.jpg");
+    text-align: center;
+}
+
+.section{
+  background: crimson;
+  text-transform:inherit;
+  font-family:monospace;
+  text-align: center;
+  display: flex;
+  flex-direction: column;  
+}
+
+.containerforgames {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction:column;
+}
+
+.game img{
+    width:300px;
+    height:300px;
+}
